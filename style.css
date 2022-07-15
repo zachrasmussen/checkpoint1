@@ -1,0 +1,24 @@
+.mont-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.bg-img {
+    background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80);
+    height: 100vh;
+    background-position: center;
+    background-repeat: none;
+}
+
+.text-pop {
+    text-shadow: 1px 1px 5px #414141;
+    color: white;
+}
+
+.sec-trans {
+    transform: translateY(-150px);
+}
+
+.f-size {
+    font-size: 50px;
+}
