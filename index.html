@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Aloha | The Hawaiian Dream</title>
@@ -41,69 +40,85 @@
 <body class="">
 
     <head class="container-fluid">
-        <div class="bg-img">
-            <nav class="row fixed-top">
-                <h3 class="col-12 px-5 bg-white p-3 mont-font">The Hawaiian <b>Dream</b></h3>
-            </nav>
-            <div class="row pt-5">
+        <nav class="row fixed-top">
+            <h3 class="col-12 px-5 bg-white p-3 mont-font">The Hawaiian <b>Dream</b></h3>
+        </nav>
+
+        <div class="bg-img row pt-5 justify-content-center align-items-center">
+            <div class="row">
                 <div>
                     <h4 class="col-10 col-md-3 offset-1 pt-5 text-center ">Get A <b>HOT</b> Deal Today!</h4>
-                    <div class="row">
+                </div>
+                <form class="col-10 col-md-3 offset-1 bg-light p-3 mb-5 rounded-2">
+                    <h5 class="text-center pb-2">Join our mailing list</h5>
 
-                        <form class="col-10 col-md-3 offset-1 bg-light p-3 mt-3 rounded-2">
-                            <h5 class="text-center pb-2">Join our mailing list</h5>
+                    <label for="name"></label>
+                    <input class="col-12" type="text" placeholder="NAME">
 
-                            <label for="name"></label>
-                            <input class="col-12" type="text" placeholder="NAME">
+                    <label for="email"></label>
+                    <input class="col-12 mt-2" type="email" placeholder="EMAIL">
 
-                            <label for="email"></label>
-                            <input class="col-12 mt-2" type="email" placeholder="EMAIL">
+                    <label for="phone"></label>
+                    <input class="col-12 mt-2" type="tel" placeholder="PHONE">
 
-                            <label for="phone"></label>
-                            <input class="col-12 mt-2" type="tel" placeholder="PHONE">
+                    <label for="message"></label>
+                    <textarea class="col-12 mt-2" name="message" placeholder="MESSAGE" id="" cols="19"
+                        rows="5"></textarea>
 
-                            <label for="message"></label>
-                            <textarea class="col-12 mt-2" name="message" placeholder="MESSAGE" id="" cols="19"
-                                rows="5"></textarea>
+                    <input class="mt-2" type="checkbox">
+                    <label class="mt-2" for="checkbox">Subscribe to our newsletter!</label>
 
-                            <input class="mt-2" type="checkbox">
-                            <label class="mt-2" for="checkbox">Subscribe to our newsletter!</label>
+                    <button type="button" class="btn btn-primary col-12 mt-3">Submit!</button>
 
-                            <button type="button" class="btn btn-primary col-12 mt-3">Submit!</button>
-
-                        </form>
-                        <div class="col-10 col-md-7 offset- px-5 text-pop">
-                            <h1 class="mont-font">Start Your Hawaiian <b>Dream</b> Today!</h1>
-                            <p>The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next
-                                adventure and cajol yar clients into walking the plank with ev'ry layout! Configure
-                                above, then get yer pirate ipsum...own the high seas, arg!</p>
-                            <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace
-                                holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab
-                                barque interloper chantey doubloon starboard grog black jack gangway rutters.
-                            </p>
-                            <p>
-                                Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable
-                                strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver
-                                me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul
-                                squiffy black spot yardarm spyglass sheet transom heave to.
-                            </p>
-                            <p>
-                                Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver
-                                me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters.
-                                Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom
-                                spirits.
-                            </p>
-                        </div>
-                    </div>
+                </form>
+                <div class="d-text col-10 col-md-7 offset- px-5 text-pop">
+                    <h1 class="mont-font">Start Your Hawaiian <b>Dream</b> Today!</h1>
+                    <p>The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next
+                        adventure and cajol yar clients into walking the plank with ev'ry layout! Configure
+                        above, then get yer pirate ipsum...own the high seas, arg!</p>
+                    <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace
+                        holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab
+                        barque interloper chantey doubloon starboard grog black jack gangway rutters.
+                    </p>
+                    <p>
+                        Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable
+                        strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver
+                        me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul
+                        squiffy black spot yardarm spyglass sheet transom heave to.
+                    </p>
+                    <p>
+                        Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver
+                        me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters.
+                        Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom
+                        spirits.
+                    </p>
                 </div>
             </div>
-
-        </div>
         </div>
     </head>
 
     <main class="container-fluid">
         <div class="row bg-dark py-5">
+            <div
+                class="d-none d-md-block order-md-2 col-10 col-md-4 offset-1 order-0 sec-trans ty bg-light mt-3 rounded-2 shadow p-3 mb-5 bg-body rounded">
+                <card>
+                    <h5><i class="mdi mdi-anchor mx-2 text-dark"></i>Boat adventures for whale watching.</h5>
+                    <h5><i class="mdi mdi-airplane mx-2 text-dark"></i>Private jet to and from the island.</h5>
+                    <h5><i class="mdi mdi-foot-print mx-2 text-dark"></i>Access to amazing private beaches.</h5>
+                    <h5><i class="mdi mdi-island mx-2 text-dark"></i>Stay in a villa on your own island.</h5>
+                    <h5><i class="mdi mdi-swim mx-2 text-dark"></i>Amazing world class pools.</h5>
+                </card>
+            </div>
+            <div
+                class="d-md-none col-10 col-md-4 offset-1 order-0 ty bg-light mt-3 rounded-2 shadow p-3 mb-5 bg-body rounded">
+                <card>
+                    <h5><i class="mdi mdi-anchor mx-2 text-dark"></i>Boat adventures for whale watching.</h5>
+                    <h5><i class="mdi mdi-airplane mx-2 text-dark"></i>Private jet to and from the island.</h5>
+                    <h5><i class="mdi mdi-foot-print mx-2 text-dark"></i>Access to amazing private beaches.</h5>
+                    <h5><i class="mdi mdi-island mx-2 text-dark"></i>Stay in a villa on your own island.</h5>
+                    <h5><i class="mdi mdi-swim mx-2 text-dark"></i>Amazing world class pools.</h5>
+                </card>
+            </div>
             <div class="col-10 col-md-4 offset-1">
                 <h4 class="text-light">Rexlax, it's coconut hour!</h4>
                 <p class="text-light">If you love laying on the sand, listening to the waves
@@ -117,23 +132,10 @@
             </div>
         </div>
 
-
         <section>
-            <div class="row bg-white">
-                <card
-                    class="col-10 col-md-4 offset-1 offset-md-6 sec-trans bg-light mt-3 rounded-2 shadow p-3 mb-5 bg-body rounded">
-                    <h5><i class="mdi mdi-anchor mx-2 text-dark"></i>Boat adventures for whale watching.</h5>
-                    <h5><i class="mdi mdi-airplane mx-2 text-dark"></i>Private jet to and from the island.</h5>
-                    <h5><i class="mdi mdi-foot-print mx-2 text-dark"></i>Access to amazing private beaches.</h5>
-                    <h5><i class="mdi mdi-island mx-2 text-dark"></i>Stay in a villa on your own island.</h5>
-                    <h5><i class="mdi mdi-swim mx-2 text-dark"></i>Amazing world class pools.</h5>
-                </card>
-        </section>
-
-        <section>
-            <div class="row">
-                <div class="col-10 col-md-4 offset-1">
-                    <img class="img-fluid img-trans"
+            <div class="row align-items-center mt-5 mt-md-0 p-2 p-md-5">
+                <div class="col-10 col-md-4 pb-4 pb-md-0 offset-1">
+                    <img class="img-fluid"
                         src="https://images.unsplash.com/photo-1576567559946-60e4729da9f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
                         alt="">
                 </div>
@@ -150,23 +152,15 @@
                         the source! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque eligendi veritatis
                         blanditiis ducimus itaque accusamus impedit tempora commodi qui sapiente minus, ea perferendis
                         et quo iusto repudiandae quam placeat. Nam.</p>
-                    <button type="button" class="btn btn-primary col-4 offset-4 mt-3">Learn More!</button>
+                    <button type="button" class="btn btn-primary col-4 offset-4 mb-5 mt-3">Learn More!</button>
                 </div>
             </div>
         </section>
 
         <section class="container-fluid">
-            <div class="row bg-light align-items-center py-5">
-                <card class="col-10 col-md-3 mx-4 mx-md-5 p-3 ">
-                    <div class="bg-white rounded-2 shadow rounded p-3">
-                        <h5 class="text-center pb-2">This is a review!</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quod iste expedita. Odit
-                            quis voluptatum consequatur provident quos iusto doloribus quo, rerum natus enim obcaecati
-                            tempora, illo, explicabo animi facere!</p>
-                        <p>- Dwight Schrute</p>
-                    </div>
-                </card>
-                <card class="col-10 col-md-3 mx-4 mx-md-5 p-3 bg-white rounded-2 shadow rounded">
+            <div class="row bg-light justify-content-center align-items-center py-5">
+
+                <card class="order-md-2 col-10 col-md-3 mx-4 mx-md-5 p-3 bg-white rounded-2 shadow rounded">
                     <div class="col-12 text-center">
                         <i class="mdi mdi-star-outline mx-2 text-warning f-size"></i>
                         <i class="mdi mdi-star-outline mx-2 text-warning f-size"></i>
@@ -178,7 +172,18 @@
                         tempora, illo, explicabo animi facere!</p>
                     <p>- Jim Halpert</p>
                 </card>
-                <card class="col-10 col-md-3 mx-4 mx-md-5 p-3 ">
+
+                <card class="order-md-1 col-10 col-md-3 mx-4 mx-md-5 p-3 ">
+                    <div class="bg-white rounded-2 shadow rounded p-3">
+                        <h5 class="text-center pb-2">This is a review!</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quod iste expedita. Odit
+                            quis voluptatum consequatur provident quos iusto doloribus quo, rerum natus enim obcaecati
+                            tempora, illo, explicabo animi facere!</p>
+                        <p>- Dwight Schrute</p>
+                    </div>
+                </card>
+
+                <card class="order-md-3 col-10 col-md-3 mx-4 mx-md-5 p-3 ">
                     <div class="bg-white rounded-2 shadow rounded p-3">
                         <h5 class="text-center pb-2">This is a review!</h5>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quod iste expedita. Odit
