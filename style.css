@@ -19,6 +19,14 @@
     transform: translateY(-150px);
 }
 
+.img-trans {
+    transform: translateY(-125px);
+}
+
 .f-size {
     font-size: 50px;
+}
+
+.min-h {
+    min-height: 12em;
 }
